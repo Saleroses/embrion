@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/embrion/static/css/main.14dd1907.css",
+    "main.js": "/embrion/static/js/main.e44471ca.js",
+    "static/js/787.a6b8a83d.chunk.js": "/embrion/static/js/787.a6b8a83d.chunk.js",
+    "static/media/pBp6-cgV7xajjTvAbYQ2VKVdXgY-960.jpg": "/embrion/static/media/pBp6-cgV7xajjTvAbYQ2VKVdXgY-960.241deef8243e9cc2ddc4.jpg",
+    "index.html": "/embrion/index.html",
+    "main.14dd1907.css.map": "/embrion/static/css/main.14dd1907.css.map",
+    "main.e44471ca.js.map": "/embrion/static/js/main.e44471ca.js.map",
+    "787.a6b8a83d.chunk.js.map": "/embrion/static/js/787.a6b8a83d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14dd1907.css",
+    "static/js/main.e44471ca.js"
+  ]
+}
