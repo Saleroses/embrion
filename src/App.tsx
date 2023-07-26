@@ -1,11 +1,18 @@
-import React, {MouseEventHandler, useState} from 'react';
+import React, {MouseEventHandler, useEffect, useState} from 'react';
 import './App.css';
 
 
 function App() {
     const day = new Date().toLocaleDateString()
 
-    let [winner, setWinner] = useState("Ждет твоего выбора!")
+    let [winner, setWinner] = useState(()=> {
+        let winnerLocal = localStorage.getItem("winner")
+        return winnerLocal ? winnerLocal : "Ждет твоего выбора!";
+    })
+
+    useEffect(()=> {
+        localStorage.setItem("winner", winner)
+    }, [winner])
 
 
         return(
